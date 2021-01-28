@@ -1,0 +1,38 @@
+input,
+select,
+textarea {
+    border: 0;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    width: 100%;
+    background-color: transparent;
+    padding: 15px;
+    color: #fff;
+    margin: 25px auto;
+    text-transform: uppercase;
+
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: #fff;
+    }
+    &::-moz-placeholder { /* Firefox 19+ */
+    color: #fff;
+    }
+    &:-ms-input-placeholder { /* IE 10+ */
+    color: #fff;
+    }
+    &:-moz-placeholder { /* Firefox 18- */
+    color: #fff;
+    }
+
+    &.error {
+        border-bottom: 1px solid #f00;
+    }
+}
+
+textarea {
+    height: 100px;
+}
+
+select option {
+    background-color: $primary-color;
+}

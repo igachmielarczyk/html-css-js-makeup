@@ -1,0 +1,42 @@
+%btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 0;
+    color: $primary-text-color;
+    transition: all .3s;
+}
+
+.btn-primary {
+    @extend %btn;
+    background-color: $primary-color;
+
+    &:hover {
+        background-color: $button-color;
+        color: $secondary-color;
+    }
+}
+
+.btn-secondary {
+    @extend %btn;
+    background-color: $button-color;
+    
+
+    &:hover {
+        background-color: $primary-color;
+        color: $primary-text-color;
+    }
+}
+
+.btn-form {
+    @extend %btn;
+    background-color: $primary-color;
+    color: $primary-text-color;
+
+    &:hover {
+        background-color: $button-color;
+        color: $secondary-text-color;
+    }
+}

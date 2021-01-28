@@ -1,0 +1,20 @@
+@import 'utils/variables';
+@import 'utils/mixins';
+
+@import 'base/global';
+@import 'base/normalize';
+
+@import 'layout/nav';
+@import 'layout/header';
+@import 'layout/about';
+@import 'layout/grid';
+@import 'layout/services';
+@import 'layout/team';
+@import 'layout/appointment';
+@import 'layout/contact';
+@import 'layout/footer';
+
+
+@import 'components/buttons';
+@import 'components/infoboxes';
+@import 'components/inputs';
