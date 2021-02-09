@@ -24,7 +24,6 @@ const createAppointment = (appointment) => {
     })
         .then(res => res.json())
         .then(resJSON => {
-            console.log(resJSON);
             appointmentMessage.classList.add('send');
             appointmentMessage.innerText = `Thanks ${resJSON.appointment.name}, you have been saved`;
         });
